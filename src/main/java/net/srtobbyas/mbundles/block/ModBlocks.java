@@ -17,8 +17,8 @@ import net.minecraftforge.registries.RegistryObject;
 import net.srtobbyas.mbundles.MonsterBundlesMOD;
 import net.srtobbyas.mbundles.block.custom.TearBlock;
 import net.srtobbyas.mbundles.block.custom.TeleportBlock;
-import net.srtobbyas.mbundles.block.custom.WearableBlock;
 import net.srtobbyas.mbundles.item.ModItems;
+import net.srtobbyas.mbundles.item.custom.WearableBlockItem;
 
 import java.util.function.Supplier;
 
@@ -34,15 +34,15 @@ public class ModBlocks
                     .strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHER_BRICKS))
             , CreativeModeTab.TAB_BUILDING_BLOCKS);
 
-    public static final RegistryObject<Block> SKULL_BLOCK = registerBlock("skull_block",
-            () -> new WearableBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(2.5f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)),
-            CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SKULL_BLOCK = BLOCKS.register
+            ("skull_block", () -> new Block(BlockBehaviour.Properties.of
+                    (Material.STONE).sound(SoundType.BONE_BLOCK).strength(2.5f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> FIRE_SKULL_BLOCK = registerBlock("fire_skull_block",
             () -> new CarvedPumpkinBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2.5f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)
                     .lightLevel((state) -> 15)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+
 
         public static final RegistryObject<Block> GUNPOWDER_BLOCK = registerBlock("gunpowder_block",
             () -> new GravelBlock(BlockBehaviour.Properties.of(Material.SAND)

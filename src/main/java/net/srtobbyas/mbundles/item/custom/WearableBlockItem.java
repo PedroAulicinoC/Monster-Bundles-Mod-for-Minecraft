@@ -1,18 +1,19 @@
-package net.srtobbyas.mbundles.block.custom;
+package net.srtobbyas.mbundles.item.custom;
 
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Wearable;
 import net.minecraft.world.level.block.Block;
 
 import javax.annotation.Nullable;
 
-public class WearableBlock extends BlockItem
+public class WearableBlockItem extends BlockItem
 {
-    public WearableBlock(Block block, Item.Properties properties)
+
+    public WearableBlockItem(Block p_40565_, Properties p_40566_)
     {
-        super(block, properties);
+        super(p_40565_, p_40566_);
     }
 
     @Nullable
