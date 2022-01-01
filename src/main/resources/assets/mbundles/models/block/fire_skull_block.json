@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "particle": "mbundles:block/skull_block_back",
+    "north": "mbundles:block/fire_skull_block_front",
+    "south": "mbundles:block/skull_block_back",
+    "east": "mbundles:block/skull_block_east",
+    "west": "mbundles:block/skull_block_west",
+    "up": "mbundles:block/skull_block_top",
+    "down": "mbundles:block/skull_block_bottom"
+
+  }
+}

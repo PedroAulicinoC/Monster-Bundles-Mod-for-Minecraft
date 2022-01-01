@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mbundles:block/tear_block_side",
+    "side": "mbundles:block/tear_block_front_on"
+  }
+}

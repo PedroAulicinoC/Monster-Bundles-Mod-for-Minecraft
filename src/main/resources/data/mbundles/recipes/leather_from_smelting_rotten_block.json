@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "coal",
+  "ingredient": {
+    "item": "mbundles:rotten_block"
+  },
+  "result": "minecraft:leather",
+  "experience": 0.7,
+  "cookingtime": 200
+}

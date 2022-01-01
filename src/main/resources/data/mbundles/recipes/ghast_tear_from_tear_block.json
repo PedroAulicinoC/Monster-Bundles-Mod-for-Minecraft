@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mbundles:tear_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ghast_tear",
+    "count": 9
+  }
+}

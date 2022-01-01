@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "clicked=false": { "model": "mbundles:block/tear_block" },
+    "clicked=true": { "model": "mbundles:block/tear_block_on" }
+  }
+}

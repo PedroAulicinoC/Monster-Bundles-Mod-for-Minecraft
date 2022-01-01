@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mbundles:skull_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bone",
+    "count": 9
+  }
+}

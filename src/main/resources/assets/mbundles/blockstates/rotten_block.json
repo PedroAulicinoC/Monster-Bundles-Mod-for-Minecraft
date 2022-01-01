@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mbundles:block/rotten_block"
+    }
+  }
+}

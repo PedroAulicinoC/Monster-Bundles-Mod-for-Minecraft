@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "mbundles:block/gunpowder_block"
+      },
+      {
+        "model": "mbundles:block/gunpowder_block",
+        "y": 90
+      },
+      {
+        "model": "mbundles:block/gunpowder_block",
+        "y": 180
+      },
+      {
+        "model": "mbundles:block/gunpowder_block",
+        "y": 270
+      }
+    ]
+  }
+}
