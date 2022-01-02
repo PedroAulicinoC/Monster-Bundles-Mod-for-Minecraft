@@ -35,7 +35,7 @@ public class ModBlocks
             , CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     public static final RegistryObject<Block> SKULL_BLOCK = BLOCKS.register
-            ("skull_block", () -> new Block(BlockBehaviour.Properties.of
+            ("skull_block", () -> new CarvedPumpkinBlock(BlockBehaviour.Properties.of
                     (Material.STONE).sound(SoundType.BONE_BLOCK).strength(2.5f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> FIRE_SKULL_BLOCK = registerBlock("fire_skull_block",

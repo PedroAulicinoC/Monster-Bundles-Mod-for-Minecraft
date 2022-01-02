@@ -5,6 +5,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Wearable;
 import net.minecraft.world.level.block.Block;
+import net.srtobbyas.mbundles.item.ModItems;
 
 import javax.annotation.Nullable;
 

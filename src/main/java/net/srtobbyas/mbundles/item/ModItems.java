@@ -8,6 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.srtobbyas.mbundles.MonsterBundlesMOD;
+import net.srtobbyas.mbundles.block.ModBlocks;
 import net.srtobbyas.mbundles.item.custom.WearableBlockItem;
 
 public class ModItems
@@ -18,7 +19,8 @@ public class ModItems
 
     //Items
     public static final RegistryObject<Item> SKULL_BLOCK = ITEMS.register("skull_block",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new WearableBlockItem(ModBlocks.SKULL_BLOCK.get(),
+                    new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static void register(IEventBus eventBus)
     {
