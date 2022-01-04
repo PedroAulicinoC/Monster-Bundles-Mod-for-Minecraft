@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mbundles:block/magma_cube_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mbundles:block/magma_cube_block"
+    },
+    "facing=south": {
+      "model": "mbundles:block/magma_cube_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mbundles:block/magma_cube_block",
+      "y": 270
+    }
+  }
+}

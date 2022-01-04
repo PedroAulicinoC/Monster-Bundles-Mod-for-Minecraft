@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "mbundles:rotten_block"
+    },
+    "title": "Cursed Meatball",
+    "description": "Not very tasty.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mbundles:monsterbundles",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbundles:rotten_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

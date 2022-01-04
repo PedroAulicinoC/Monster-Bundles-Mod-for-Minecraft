@@ -1,7 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures":
-  {
-    "all": "mbundles:block/dummy"
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mbundles:block/ender_pearl_block_top",
+    "north": "mbundles:block/ender_pearl_block",
+    "south": "mbundles:block/ender_pearl_block",
+    "east": "mbundles:block/ender_pearl_block",
+    "west": "mbundles:block/ender_pearl_block",
+    "up": "mbundles:block/ender_pearl_block_top",
+    "down": "minecraft:block/shulker_box"
   }
 }

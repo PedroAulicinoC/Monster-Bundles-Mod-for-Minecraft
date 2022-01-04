@@ -6,5 +6,8 @@
   "block.mbundles.rotten_block": "Rotten Flesh Pile",
   "block.mbundles.tear_block": "Ghast Tear Block",
   "block.mbundles.string_block": "String Roll",
-  "block.mbundles.ender_pearl_block": "Ender Pearl Block (Dummy)"
+  "block.mbundles.eye_block": "Spider Eye Bundle",
+  "block.mbundles.magma_cube_block": "Magma Cube Block",
+  "block.mbundles.ender_pearl_block": "Ender Pearl Barrel",
+  "block.mbundles.phantom_block": "Phantom Vase"
 }

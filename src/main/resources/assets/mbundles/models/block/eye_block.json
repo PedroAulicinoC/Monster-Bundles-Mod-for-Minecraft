@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "particle": "mbundles:block/eye_block_front",
+    "north": "mbundles:block/eye_block_front",
+    "south": "mbundles:block/eye_block_side",
+    "east": "mbundles:block/eye_block_side",
+    "west": "mbundles:block/eye_block_side",
+    "up": "mbundles:block/eye_block_top5",
+    "down": "mbundles:block/eye_block_bottom"
+
+  }
+}

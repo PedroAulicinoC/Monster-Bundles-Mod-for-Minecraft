@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mbundles:eye_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:spider_eye",
+    "count": 9
+  }
+}

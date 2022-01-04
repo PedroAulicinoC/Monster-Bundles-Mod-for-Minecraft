@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mbundles:block/eye_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mbundles:block/eye_block"
+    },
+    "facing=south": {
+      "model": "mbundles:block/eye_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mbundles:block/eye_block",
+      "y": 270
+    }
+  }
+}

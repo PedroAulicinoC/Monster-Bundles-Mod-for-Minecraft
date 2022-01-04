@@ -5,6 +5,7 @@
     "mbundles:blaze_block",
     "mbundles:skull_block",
     "mbundles:fire_skull_block",
-    "mbundles:tear_block"
+    "mbundles:tear_block",
+    "mbundles:phantom_block"
   ]
 }

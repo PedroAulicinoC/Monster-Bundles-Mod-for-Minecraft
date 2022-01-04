@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "particle": "mbundles:block/magma_cube_front",
+    "north": "mbundles:block/magma_cube_front",
+    "south": "mbundles:block/magma_cube_side",
+    "east": "mbundles:block/magma_cube_side",
+    "west": "mbundles:block/magma_cube_side",
+    "up": "mbundles:block/magma_cube_side",
+    "down": "mbundles:block/magma_cube_side"
+
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "mbundles:tear_block"
+    },
+    "title": "A pretty sad block",
+    "description": "Relatable...",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mbundles:blaze_block",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbundles:tear_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "mbundles:blaze_block"
+    },
+    "title": "Super Fuel!",
+    "description": "Blaze power!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mbundles:skull_block",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbundles:blaze_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

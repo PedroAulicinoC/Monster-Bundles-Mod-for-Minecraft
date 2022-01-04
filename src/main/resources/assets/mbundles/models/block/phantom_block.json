@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "mbundles:block/phantom_block_top",
+    "bottom": "mbundles:block/phantom_block_bottom",
+    "side": "mbundles:block/phantom_block_side"
+  }
+}
